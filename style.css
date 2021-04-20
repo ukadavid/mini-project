@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Ubuntu',
+  sans-serif;
+}
+
+/* Navigation Section */
+
+.logo
+ {
+  width: 30px;
+  height: 20px;
+}
+
+
+.search, .user{
+  margin: auto 10px;
+}
+
+div.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  width: 100vw;
+}
+
+ul.nav-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul.bar {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  margin: auto 10px;
+  text-decoration: none;
+  color: rgb(163, 104, 116);
+}
+
+ul li a:hover {
+  color: rgb(32, 19, 19);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+/* Header */
+
+div.head {
+  display: flex;
+  width: 80%;
+}
+
+.head {
+  margin: 50px 50px 50px 100px;
+  background-color: #8cb8b283;
+  padding: 25px;
+}
+
+div.tail {
+  /* flex: 2; */
+  line-height: 1.5;
+}
+
+.picture{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  right: 50px;
+}
+
+.left, .right {
+  position: relative;
+  top: 240px;
+ left: 250px;
+  font-size: 32px;
+}
+
+.left {
+  border: 1px solid #8c4a37;
+}
+
+.right {
+  background-color: #8c4a37;
+  border: 1px solid #8c4a37;
+}
+
+button {
+  background-color: #8c4a37;
+  width: 100px;
+  height: 35px;
+  color: #fff;
+}
+
+button:hover {
+  width: 110px;
+  height: 40px;
+  font-size: 16px;
+}
+
+  
+/* About Page */
+.about-page {
+  display: flex;
+  margin: 50px 50px 50px 100px;
+}
+
+.about-img {
+ width: 450px;
+ height: 500px; 
+}
+
+.about-page>.about-text {
+  padding: 50px 30px;
+  line-height: 1.5;
+  width: 500px;
+}
+
+.about-page .about-text button {
+  margin-top: 30px;
+} 
+
+/* Next Page */
+.page-nav {
+  display: flex;
+  margin: auto 50px 0;
+}
+
+.page-nav a {
+  text-align: right;
+  width: 85%;
+  text-decoration: none;
+  color: #8c4a37;
+}
+
+.page-nav p {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #8c4a37;
+}
+
+.selling-items {
+  display: flex;
+  margin: 20px 20px 50px;
+}
+
+.items {
+  width: 300px;
+  height: 200px;
+  width: 80%;
+}
+
+.selling-items .items {
+  margin: auto 1rem;
+}
+
+.selling-items .item-type {
+  margin: 16px 16px 10px;
+}
+
+.item-price {
+  margin-left: 16px;
+}
+
+/* Main Menu */
+.items-menu {
+  width: 250px;
+  height: 200px;
+}
+
+.menu-items {
+  display: flex;
+  margin: 20px 20px 50px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.items-menu-second {
+   width: 250px;
+   height: 200px; 
+}
+
+.second-menu {
+margin-left: 5%;
+}
+
+.para-menu {
+  padding-left: 20px;
+}
+
+.main-menu {
+  padding-left: 40px;
+  line-height: 2;
+}
+
+/* Experience Section */
+
+.experience-img {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.third-section-img h2 {
+  width: 75%;
+  padding-left: 20px;
+}
+
+.third-section-img p {
+  padding-left: 20px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.third-section-img button {
+  margin: 20px auto auto 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: #8c4a37;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 250px;
+  width: 100%;
+}
+
+footer div {
+  width: 30%;
+  margin-right: 15%;
+}
+
+footer .store h3 {  
+  width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer .store p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+.contact-us {
+  width: 100px;
+  height: 200px;
+  border-radius: 10%;
+  padding: 2px;
+}
+
+.contact-us-img {
+  background-color: #fff;
+  width: 102px;
+  border-radius: 10%;
+  position: relative;
+  bottom: 70px;
+}
+
+.contact-us-img h2 {
+  position: relative;
+  top: 30px;
+  left: 25px;
+  color: #fff;
+  font-size: 12px;
+}

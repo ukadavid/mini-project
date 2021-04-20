@@ -1,0 +1,99 @@
+@media screen and (max-width:768px) {
+  /* Navigation */
+
+  .bar {
+    margin-right: 20px;
+  }
+
+  div.nav-bar {
+    padding: 2rem 2rem;
+  }
+
+
+  div.head {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .head {
+    width: 100%;
+    margin-right: 80px;
+  }
+
+  .tail {
+    margin-top: 10px;
+  }
+
+  .tail h3 {
+    margin-bottom: 10px;
+  }
+
+  .about-page {
+    flex-direction: column;
+    margin: 0 0 0 30px;
+  }
+
+  .about-page>.about-text {
+    margin: 0;
+  }
+
+  .page-nav a {
+    text-align: auto;
+  }
+
+  .selling-items {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item-price {
+    margin-bottom: 30px;}
+
+   .menu-items {
+     flex-direction: column;
+   }
+
+   .para-menu {
+     padding-left: 0;
+     padding-bottom: 20px;
+         width: 55%;
+         line-height: 1.5;
+    }
+
+    .experience-img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .third-section {
+      flex-direction: column;
+      margin-left: 0px;
+    
+    }
+
+    .third-section-img {
+      padding-top: 20px;
+      padding-left: 30px;
+    }
+
+    footer .store h3 {
+      width: 50%;}
+
+      footer div {
+        width: 70%;
+        margin: 0 0 0 20px ;
+      
+      }
+
+      .contact-us-img {
+       margin:0 10px 0 0;
+      }
+
+      footer .store p {
+        width: 90%;}
+
+        .right, .left {
+          display: none;
+        }
+
+}
